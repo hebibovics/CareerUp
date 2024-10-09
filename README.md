@@ -1,2 +1,4 @@
-# Sample-website-using-bootstrap
+# Career Up
 This is a sample business website made using Bootstrap. (Only front-end)
+
+With the existence of a unique platform like CareerUp, all interested individuals, particularly students, would be able to adequately and effectively prepare for their first job interview in one place. By offering a straightforward approach through this web platform, students can select their field of interest, educate themselves in that domain, enhance their CV and cover letter, and better equip themselves for job interviews. On this platform, they would find potential interview questions, answers tailored to technical interviews in specific fields, assistance in crafting quality CVs and cover letters, as well as guidance on developing soft skills such as communication, problem-solving, time management, and many others.
