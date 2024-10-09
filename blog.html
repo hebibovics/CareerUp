@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CAREER UP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> </head>
+
+<body>
+
+    <div id="myNav" class="overlay container">
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">CareerUp</a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right navbar-header">
+                        <li>
+                            <a onclick="closeNav()">
+                                <span class="glyphicon glyphicon-remove"></span>
+
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </div>
+        <!--        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Courses</a>
+        </div>
+    </div>
+    <div class="search" id="search">
+        <div class="search-content">
+            <input type="text" placeholder="Search here.." name="search">
+
+            <a class="pull-right" onclick="closeSearch()">
+                <span class="glyphicon glyphicon-remove"></span>
+
+            </a>
+        </div>
+    </div>
+    <!--     ----->
+    <div class="container">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">CareerUp</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right navbar-header">
+                    <li><a onclick="openSearch()"><span class="glyphicon glyphicon-search"></span></a></li>
+                    <li>
+
+                        <a onclick="openNav()">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class=" hamb">
+
+                <!--                <a onclick="openNav()">-->
+                <button data-toggle="collapse" data-target="#navres">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span></button>
+
+            </div>
+        </nav>
+    </div>
+    <hr>
+
+    <div id="navres" class="collapse">
+        <ul class="nav nav-stacked">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="blog.html">Courses</a></li>
+        </ul>
+
+    </div>
+
+    <!--..-->
+ <!--blog start -->
+ <section id="blog" class="blog">
+    <div class="container">
+        <div class="section-header">
+            <h2>Our services</h2>
+        </div><!--/.section-header-->
+        <div class="blog-content">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="single-blog">
+                        <div class="single-blog-img">
+                            <img class="pict" src="images/head_im.jpg" alt="blog image" style="height: 250px;">
+                            <div class="single-blog-img-overlay"></div>
+                        </div>
+                        <div class="single-blog-txt">
+                            <h2><a href="#">Video materials</a></h2>
+                            <h3>By <a href="#">Our trainers</a> / 18th March 2022</h3>
+                            <p>
+                               Our trainers can help you with all soft skills needed to land your first job. Also, you can hear many advices for your technical interviews in many fields, advices for CV writing, and many others... 
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-blog">
+                        <div class="single-blog-img">
+                            <img class="pict" src="images/how-to-develop-and-train-for-soft-skills-in-the-workplace-e1538741450811.webp" alt="blog image" style="height: 250px;">
+                            <div class="single-blog-img-overlay"></div>
+                        </div>
+                        <div class="single-blog-txt">
+                            <h2><a href="#">Companies</a></h2>
+                            <h3>By <a href="#">Our partners</a> / 18th March 2022</h3>
+                            <p>
+                               You can find many advices for landing your first job. Also, here you can see what each company needs of their employees, how to find job in their company and what will for each of them stand you out among others... 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-blog">
+                        <div class="single-blog-img">
+                            <img class="pict" src="images/pic1.jpg" alt="blog image" style="height: 250px;">
+                            <div class="single-blog-img-overlay"></div>
+                        </div>
+                        <div class="single-blog-txt">
+                            <h2><a href="#">Courses and technical interview workshops</a></h2>
+                            <h3>By <a href="#">Our trainers</a> / 18th March 2022</h3>
+                            <p>
+                                If you seriously need help with your soft skills or technical interview preparations, sign in for some of our best courses and workshops. Easy apply and be part of community with youngest people learning how to land their first job... 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/.container-->
+    
+</section><!--/.blog-->
+<!--blog end -->
+
+    <!--    ----->
+    <footer>
+        <div class="container">
+            <div class="row text-cen">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <ul class="location">
+                        <span>Our location</span>
+
+                        <iframe width="100%" height="230" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=" https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.139537090903!2d-0.12463!3d51.512576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cc8b5f9799%3A0x74c809e1d8d585e0!2s1-4+Langley+Ct%2C+London+WC2E+9JY%2C+UK!5e0!3m2!1sen!2sus!4v1507909652156"> </iframe>
+
+                        <li>
+                            <p style="color:black; ">Main Street BB</p>
+                            <p style="color:black; ">88 090 City</p>
+                            <p style="color:black; ">Country</p>
+                        </li>
+
+                        <li>
+                            <p>+38736000000</p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <ul class="menus ">
+                        <span>Menu</span>
+                        <li style="padding:0 0 12px 0; ">
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                        <li>
+                            <a href="blog.html ">Courses</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </footer>
+    <div class="main-foot ">
+        <div class="container ">
+            <p class="pull-left pl"> <b>| CAREER UP |</b>  </p>
+            <ul class="social pull-right ">
+
+                <li>
+                    <a href="# "><i class="fa fa-facebook "></i></a>
+                </li>
+
+               
+
+                <li>
+                    <a href="# "><i class="fa fa-instagram "></i></a>
+                </li>
+
+                <li>
+                    <a href="# "><i class="fa fa-linkedin "></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+        function openSearch() {
+            document.getElementById("search").style.height = "100px";
+        }
+
+        function closeSearch() {
+            document.getElementById("search").style.height = "0%";
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
